@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2331d38c11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resrv_style.css">
+    <title>Reservation</title>
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logo">
+            
+        </div>
+    
+    
+    
+        <div class="menu">   
+
+        <div class="dropdown">
+            <button><img id="ham_icon"src="/img/H_menu_icon.png" alt=""></button>
+            <div class="dropdown-content">
+
+                <a class="menu_link" href=""> HOME</a>
+
+                <a class="menu_link" href=""> MENU </a>
+
+                <a class="menu_link" href=""> RESERVATION</a>
+
+                <a class="menu_link" href="">CONTACT </a>
+            </div>
+          </div>
+
+             </div>
+        
+    
+    </header>
+
+
+<main>
+
+    <section class="form_cont">
+        <div class="form_pic"></div>
+        <form action="reservation">
+
+            <fieldset class="form_f">
+        <p>BOOK A TABLE</p>
+        
+        <label for="fname"> First name:</label>
+        <input type="text" id="fname" name="fname" value="Freddie">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Gibbs">
+
+        <label for="Rservation_time">Time </label>
+        <input type="datetime-local" id="Rservation" value=" 1999-12-31T23:59" name="Rservation_time" min="T18:00" max="T21:30">
+        
+        <label for="people">How many are you?</label>
+        <select type="text" required="">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        
+       
+        
+        <label for="phone_n">Phone number please </label>
+        <input type="tel" min="12" max="16" id="phone_n">
+        
+        <textarea name="msg" rows="7" cols="34">Got anything to Tell us? 
+        </textarea>
+
+
+            </fieldset>
+        </form>
+        
+
+    </section>
+
+</main>
+<footer>
+
+    <div class="logo_b"></div>  
+      <p>Mainzer Str. 39, 12053 Berlin</p>
+      <p>Open Everyday from 18:00</p>
+     <a href="https://www.instagram.com/middleberlin/">
+        <i class="fa-brands fa-instagram"></i>
+     </a>
+    </footer>
+
+</body>
+</html>
