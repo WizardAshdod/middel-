@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+
+
+
+
+:root{
+    font-size: 62.5%;
+    /* font-family: 'Lora', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Playfair Display', serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --prime-color:rgb(255, 5, 142);
+    /* outline: 1px solid red; */
+}
+
+
+
+
+body{
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* header */
+
+
+header{
+    width:100%;
+    height: 15vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.logo{
+   /* for logo */
+    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+    margin: 0 auto;
+    height: 15vh;
+    width: 35vw;
+    max-width:30vw ;
+      
+}
+.menu{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   /* height: 70rem; */
+   
+}
+
+#ham_icon{
+    
+    height: 7vh;
+    width: 7vh;
+   
+}
+
+/* NEW MENU  */
+
+.dropdwn_btn{
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 0px 0.1px 0.3px 0.1px ;
+  border:none;
+  background: none;
+}
+.dropdown_cont{
+  display: none;
+  position: absolute;
+  right: 1rem;
+  background-color: #f9f9f9;
+  min-height: 10.6rem;
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
+  /* border: 1px solid red; */
+
+
+}
+
+.dropdown_cont a {
+  float: none;
+  color: black;
+  padding: 1.2rem 1.6rem;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+.dropdown_cont a:hover{
+  background-color: rgb(0, 0, 0);
+  color: #FFFFFF;
+}
+.dropdown:hover .dropdown_cont{
+display: block;
+
+}
+
+/* END NEW MENU */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+   
+    
+}
+
+
+.contact_info{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_info form, input,label, textarea, button{
+    margin: 0.5rem;
+
+}
+.cont_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn_info{
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+}
+#btn_info:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+iframe{
+    width: 30%;
+    height: 100%;
+}
+
+iframe{
+    margin: 2rem;
+}
+
+
+
+
+.pre_foot {
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #book_table{
+    
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    border-radius: 10px;
+  }
+  #book_table a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.75rem;
+    
+  }
+  #book_table:hover {
+    background-color: black;
+    
+  
+  }
+  #book_table:hover a{
+    color: #FFFFFF;
+  }
+  
+  
+
+
+/* footer  */
+
+
+
+footer{
+    border-top: 3px solid #000000;
+    height: 15rem;
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+   .logo_b{
+    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+    margin: 1rem 0 1rem 0;
+    height: 35vh;
+    width: 35vw;
+    max-width:30vw ;
+   }
+   footer{
+    margin: 0;
+    padding: 0%;
+   }
+   footer p{
+    padding: 1rem;
+   }
+   .fa-instagram{
+    color: #000000;
+    font-size: 2rem;
+   }
+
+
+
+    /* tablets */
+ @media screen and (min-width: 481px) {
+
+    .fa-instagram{
+        color: #000000;
+        font-size: 3rem;
+       }
+ }
+
+ /* small screens */
+ @media screen and (min-width:769px) {
+  
+  .pre_foot h2 {
+    padding-top: 4rem;
+  }
+  footer{
+    width: 100vw;
+    height: 55vh;
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  footer p{
+    font-size: 2rem;
+  }
+  .logo_b{
+    height: 45vh;
+    width: 45vw;
+    max-width:50vw ;
+  }
+  footer i{
+    align-self: baseline;
+  }
+  .fa-instagram{
+    color: #000000;
+    font-size: 4rem;
+    padding: 1rem;
+   }
+
+
+  }
+
+
+  /* BIG screens */
+@media screen and (min-width:1025px) {
+    .logo{
+      background-position: center;
+      position: absolute;
+      left: -7.5rem;
+  
+    }
+  
+    /* for menu */
+  
+    
+    #ham_icon{
+      display: none;
+    }
+    .dropdwn_btn{
+      display: none;
+  }
+  .dropdown{
+    width: 3rem;
+   
+  }
+  .dropdown_cont a{
+     
+      text-decoration: none;
+      position: relative;
+      
+      
+      
+  }
+  .dropdown_cont{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     position: absolute;
+     top:-3.2rem;
+     right: 1rem;
+     font-size: 1.5rem;
+     
+     height: 0.1rem;
+     padding: 0rem ;
+     margin: 0;
+     background-color:white;
+     box-shadow: none;
+  }
+  
+  .dropdown:hover .dropdown_cont{
+    display: flex;
+    
+    }
+  
+
+    .logo_b{
+        height: 35vh;
+        width: 35vw;
+        max-width:50vw ;
+      }
+
+  }
+  

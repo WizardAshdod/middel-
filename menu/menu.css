@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
 
-@import url('https://css.gg/menu.css');
+
 
 :root{
     font-size: 62.5%;
@@ -220,6 +220,45 @@ width: 100%;
     
 }
 
+
+
+.pre_foot {
+  height: 13rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+
+}
+.pre_foot h2 {
+    margin:2rem 0 2rem 0;
+}
+#book_table{
+  
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border:2px solid black;
+  border-radius: 10px;
+}
+#book_table a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.75rem;
+  
+}
+#book_table:hover {
+  background-color: black;
+  
+
+}
+#book_table:hover a{
+  color: #FFFFFF;
+}
+
+
+
   /* FOOTER */
 
 footer{
@@ -265,6 +304,12 @@ footer{
       color: #000000;
       font-size: 3rem;
      }
+     .pre_foot h2{
+        font-size: 2.5rem;
+       }
+       #book_table a{
+        font-size: 1.5rem;
+       }
    }
 
    @media screen and (min-width:769px) {
@@ -273,7 +318,12 @@ footer{
         margin: 0 auto;
         padding: 4rem;
     }
-
+    .pre_foot h2{
+        font-size: 2.5rem;
+       }
+       #book_table a{
+        font-size: 1.5rem;
+       }
 .drinks_hero{
     width: 50%;
     margin: 4rem auto;
@@ -306,6 +356,7 @@ footer{
         font-size: 4rem;
         padding: 1rem;
        }
+      
    }
 
 
@@ -411,4 +462,10 @@ main{
 
 /* end of new menu  */
 
+.pre_foot h2{
+    font-size: 2.5rem;
+   }
+   #book_table a{
+    font-size: 1.5rem;
+   }
    }
