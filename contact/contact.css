@@ -80,7 +80,7 @@ header{
 }
 .dropdown_cont{
   display: none;
-  position: absolute;
+  position: relative;
   right: 1rem;
   background-color: #f9f9f9;
   min-height: 10.6rem;
@@ -312,7 +312,7 @@ footer{
      display: flex;
      justify-content: space-between;
      align-items: flex-end;
-     position: absolute;
+     position: relative;
      top:-3.2rem;
      right: 1rem;
      font-size: 1.5rem;
