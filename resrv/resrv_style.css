@@ -39,7 +39,7 @@ header{
 
 .logo{
    /* for logo */
-    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-image: url(../img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -106,7 +106,7 @@ header{
  main{
   
   width: 100vw;
-  background-image: url(/img/middle_G.jpg);
+  background-image: url(../img/middle_G.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@ header{
     justify-content: center;
   }
    .logo_b{
-    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-image: url(../img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -235,10 +235,17 @@ header{
         color: #000000;
         font-size: 4rem;
         padding: 1rem;
-       }
+       }}
+
        @media screen and (min-width:1025px){
 
-
+  .logo{
+    
+        background-position: center;
+        position: absolute;
+        left: -2.5rem; 
+      
+}
          /* for menu */
 
   
@@ -264,8 +271,8 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
-   position: relative;
-   top:-3rem;
+   position: absolute;
+   top:-5rem;
    right: 1rem;
    font-size: 1.5rem;
    
@@ -280,11 +287,8 @@ header{
   display: flex;
   
   }
-  .logo{
-    position: absolute;
-    left: -10rem;
-  }
+  
        }
 
 
-   }
+   

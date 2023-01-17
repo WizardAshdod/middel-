@@ -38,9 +38,11 @@ header{
     border-bottom: 2px solid black;
 }
 
+/* img/ti_vrArtboard 34 copy 2@3x-8.png */
+
 .logo{
    /* for logo */
-    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-image: url(./img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -135,7 +137,7 @@ display: block;
    
 }
 .hero_logo{
-  background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+  background-image: url(./img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
   background-position:center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -258,7 +260,7 @@ footer{
   justify-content: center;
 }
  .logo_b{
-  background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+  background-image: url(./img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -358,7 +360,7 @@ footer i{
   .logo{
     background-position: center;
     position: absolute;
-    left: -7.5rem;
+    left: -4.5rem;
 
   }
 
@@ -388,8 +390,8 @@ footer i{
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
-   position: relative;
-   top:-3.2rem;
+   position: absolute;
+   top:-6rem;
    right: 1rem;
    font-size: 1.5rem;
    

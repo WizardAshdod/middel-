@@ -44,7 +44,7 @@ header{
 
 .logo{
    /* for logo */
-    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-image: url(../img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -208,7 +208,7 @@ footer{
     justify-content: center;
   }
    .logo_b{
-    background-image: url(/img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
+    background-image: url(../img/ti_vrArtboard\ 34\ copy\ 2@3x-8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -283,7 +283,7 @@ footer{
     .logo{
       background-position: center;
       position: absolute;
-      left: -7.5rem;
+      left: -6rem;
   
     }
   
@@ -314,7 +314,7 @@ footer{
      align-items: flex-end;
      position: relative;
      top:-3.2rem;
-     right: 1rem;
+     right: 4rem;
      font-size: 1.5rem;
      
      height: 0.1rem;
